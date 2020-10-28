@@ -70,5 +70,5 @@ function myFunction() {
 
   let stayInTouch = document.querySelector(".branding");
   stayInTouch.addEventListener("click", () => {
-    addContact.classList.add("glow");
+    addContact.classList.toggle("glow");
   });
