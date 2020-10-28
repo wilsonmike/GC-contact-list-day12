@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day 12 Contacts</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Acme&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="branding">
+      <i class="fas fa-american-sign-language-interpreting"></i>
+      <h3>stay in touch</h3>
+    </div>
+    <div class="controller-container">
+      <button class="add-contacts">
+        <i class="fas fa-american-sign-language-interpreting"></i>Double Click
+        To Add Contacts
+      </button>
+    </div>
+
+    <form class="form">
+      <label for="name">Name: </label>
+      <input class="form-item-style" type="text" id="name" name="name" />
+      <label for="phone">Phone: </label>
+      <input class="form-item-style" type="text" id="phone" name="phone" />
+      <label for="relation">Relation: </label>
+      <input
+        class="form-item-style"
+        type="text"
+        id="relation"
+        name="relation"
+      />
+      <button class="add-btn">Add Contact</button>
+    </form>
+    <main class="contacts-container"></main>
+    <script src="script.js"></script>
+  </body>
+</html>

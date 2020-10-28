@@ -1,0 +1,123 @@
+body {
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  padding: 20px;
+  font-family: "Acme", sans-serif;
+}
+.contacts-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 125px;
+  height: 30%;
+  position: relative;
+}
+.branding {
+  display: flex;
+  color: white;
+}
+.glow {
+  -moz-box-shadow: 0 0 5px #fff;
+  -webkit-box-shadow: 0 0 5px #fff;
+  box-shadow: 0px 0px 5px #fff;
+}
+.module {
+  max-width: 250px;
+  padding: 1rem;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, orange, rgba(0, 0, 0, 0)) 1 100%;
+}
+.delete {
+  position: absolute;
+  right: -10px;
+  bottom: -10px;
+  color: white;
+  background-color: orange;
+  border: none;
+  border-radius: 2px;
+  padding: 10px;
+  font-weight: bold;
+}
+.form {
+  display: none;
+}
+.form-show {
+  height: 40px;
+  width: 100%;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  text-align: center;
+  padding: 5px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 18px;
+}
+.form-item-style {
+  border-radius: 5px;
+  border: none;
+  outline: orange;
+  padding: 5px;
+}
+.add-btn {
+  border-radius: 5px;
+  border: none;
+  outline: orange;
+  padding: 5px;
+  font-family: "Acme", sans-serif;
+  color: white;
+  background-color: orange;
+}
+.controller-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+}
+.add-contacts {
+  display: flex;
+  margin-top: 200px;
+  padding: 100px;
+  color: white;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  font-family: "Acme", sans-serif;
+  font-size: 30px;
+}
+.add-contacts:active {
+  border: none;
+}
+.fas {
+  font-size: 50px;
+  color: white;
+}
+.button-run {
+  margin-bottom: 50px;
+}
